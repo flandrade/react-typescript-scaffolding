@@ -1,0 +1,46 @@
+{
+  "name": "react-typescript-scaffolding",
+  "version": "1.0.0",
+  "description": "React + TypeScript + Webpack scaffolding",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "build-dev": "TS_NODE_PROJECT=\"config/tsconfig-for-webpack-config.json\" webpack --mode development",
+    "build": "TS_NODE_PROJECT=\"config/tsconfig-for-webpack-config.json\" webpack --mode production",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flandrade/react-typescript-scaffolding.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flandrade/react-typescript-scaffolding/issues"
+  },
+  "homepage": "https://github.com/flandrade/react-typescript-scaffolding#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.12",
+    "@types/jest": "^23.3.1",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.4.2",
+    "source-map-loader": "^0.2.3",
+    "ts-jest": "^23.0.1",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
