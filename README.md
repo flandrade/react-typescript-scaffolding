@@ -48,3 +48,6 @@ npm test
 ```
 npm run build-dev
 ```
+
+## License
+MIT
